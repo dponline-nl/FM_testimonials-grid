@@ -3,6 +3,7 @@
     --card-2-bg: hsl(184, 100%, 22%);
     --card-3-bg: hsl(179, 100%, 13%);
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -13,12 +14,12 @@ body {
     font-size: 13px;
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 500;
-    background-color: hsl(210, 46%, 95%); /*Need checking*/
-    color: hsl(210, 46%, 95%); /*Need checking*/
+    background-color: hsl(210, 46%, 95%);
+    color: hsl(210, 46%, 95%);
 }
 
 main {
-    max-width: 375px;
+    max-width: 550px;
 }
 
 img {
@@ -31,6 +32,7 @@ blockquote {
     font-size: 0.85rem;
     line-height: 1.6;
 }
+
 .center-hv {
     display: flex;
     justify-content: center;
@@ -56,16 +58,20 @@ blockquote {
     position: relative;
     background-color: hsl(263, 55%, 52%);
 }
+
 .card:nth-child(2) {
     background-color: hsl(217, 19%, 35%);
 }
+
 .card:nth-child(3) {
     color: hsl(217, 19%, 35%);
     box-shadow: 50px 50px 50px -50px hsl(0, 0%, 81%);
 }
+
 .card:nth-child(4) {
     background-color: hsl(219, 29%, 14%);
 }
+
 .card:nth-child(5) {
     color: hsl(217, 19%, 35%);
     box-shadow: 50px 50px 50px -50px hsl(0, 0%, 81%);
@@ -94,12 +100,15 @@ blockquote {
     display: inline-block;
     margin-right: 1em;
 }
+
 .header-img-border {
     border: 2px solid hsl(263, 55%, 70%);
 }
+
 .card-name {
     grid-area: name;
 }
+
 .card-verified {
     grid-area: verified;
     opacity: 0.5;
@@ -118,6 +127,7 @@ blockquote {
     text-align: center;
     color: hsl(217, 19%, 35%);
 }
+
 .attribution a {
     color: hsl(228, 45%, 44%);
     text-decoration: none;
@@ -150,15 +160,19 @@ blockquote {
     .card:nth-child(1) {
         grid-area: one;
     }
+
     .card:nth-child(2) {
         grid-area: two;
     }
+
     .card:nth-child(3) {
         grid-area: four;
     }
+
     .card:nth-child(4) {
         grid-area: five;
     }
+
     .card:nth-child(5) {
         grid-area: three;
     }
